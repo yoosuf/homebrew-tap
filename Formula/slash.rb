@@ -7,16 +7,16 @@ class Slash < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/yoosuf/Slash/releases/download/v1.0.0/slash-darwin-arm64.tar.gz"
-      sha256 "892d4e8aa42b59333efb7291b767f29890722211303c28e625c57d3e13eed9bf"
+      sha256 "c9e139e269820a9123e824bd001b9ca25ff2993dde7526ec3ccdc4bd459ddf46"
     else
       url "https://github.com/yoosuf/Slash/releases/download/v1.0.0/slash-darwin-amd64.tar.gz"
-      sha256 "e4d2af0a41bb5f8b8dd8b9fe44d9552edaa6c7e60adddb1efd7ce7fa0663103d"
+      sha256 "510324820872e99f8a0e6c044b66fa53af59e15d7e9a35ae7900c35f0b816a67"
     end
   end
 
   on_linux do
     url "https://github.com/yoosuf/Slash/releases/download/v1.0.0/slash-linux-amd64.tar.gz"
-    sha256 "778d88e0f309f68534c9cdc6295e723ac0d2a26b928a2a75e78ff3071bd7ade4"
+    sha256 "6874faab5ae13c1d518a1943747b9eb8d8a950333bbb739a806cb995179d0930"
   end
 
   def install
